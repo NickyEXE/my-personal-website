@@ -1,20 +1,30 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
     <title>Nicky Dover's Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="assets/app.css">
 </head>
-    <body>
-        <center>
+    <body class="main">
         <h1>Nicky Dover's Personal Website</h1>
-        <p>This is a work in progress as I prepare for the job search!</p>
-        <p>To be honest, I'm mostly maintaining this website to play around on the AWS backend right now.</p>
-        <p>Probably going to rebuild this in React because that's what everyone wants today.</p>
-        <p>In the meantime, please amuse yourself with one of my projects:</p>
+        <div class="profile-container">
+            <img class="profile-item profile-pic" img src="./assets/profile.png" alt="Me with Zuzu giving graduation speech" width="100%"/>
+            <div class="profile-item intro">
+                <div class="contact-line"><a href="mailto:dovern@gmail.com?Subject=Wow!%20I%20want%20to%20give%20you%20a%20job!">dovern42@gmail.com</a></div>
+                <div class="contact-line">(646) 409-9693</div>
+                <div class="contact-line"> New York City</div>
+                <a href="https://www.linkedin.com/in/ndover/"><img class="icon" src="./assets/linkedin.png" alt="LinkedIn"/></a>
+                <a href="https://twitter.com/Nicky_Dover"><img class="icon" src="./assets/twitter.png" alt="Twitter"/></a>
+                <a href="https://github.com/NickyEXE"><img class="icon" src="./assets/github.png" alt="GitHub"/></a>
+            </div>
+            <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="ndover"><a class="LI-simple-link" href='https://www.linkedin.com/in/ndover?trk=profile-badge'>Nicky Dover</a></div>
+        </div>
+            <p>This is a work in progress as I prepare for the job search!</p>
+            <p>To be honest, I'm mostly maintaining this website to play around on AWS right now.</p>
+            <p>Probably going to rebuild this in React because that's what everyone wants today.</p>
+            <p>In the meantime, please amuse yourself with one of my projects.</p>
         <h2>Projects</h2>
         <a href="./pages/pong/pong.html"><h3>Play Pong and view my lecture on how to build it from scratch in Vanilla JS.</h3></a>
-        <a href="./pages/pong/pong.html"><img src="assets/pong.png" width="30%" border="1" alt="Pong Screenshot"/></a>
-        <br/>
-        <br/>
-        <img src="assets/aws.png" alt="This website is hosted on AWS!" width="200px"/>
-        </center>
+        <a href="./pages/pong/pong.html"><img src="assets/pong.png" width="30%" border="1" alt="Pong Screenshot"/></a><br/>
+        <img class="stub" src="assets/aws.png" alt="This website is hosted on AWS!" width="200px" />
     </body>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </html>
